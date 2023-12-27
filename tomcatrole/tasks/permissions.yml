@@ -1,0 +1,5 @@
+---
+- name: extract tar file owner permissions
+  command: sudo chown -R tomcat:tomcat /opt/tomcat/
+- name: execute permissions for bin
+  command: sudo chmod -R u+x /opt/tomcat/bin

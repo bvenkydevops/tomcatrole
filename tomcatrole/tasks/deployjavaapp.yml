@@ -1,0 +1,6 @@
+---
+- name: deploy java application
+  get_url:
+    url: https://5f1a62b8-8c6a-4a17-9327-6dab5bd7e187.s3.amazonaws.com/venkyLogin.war
+    dest: /opt/tomcat/webapps/
+    force_basic_auth: yes
