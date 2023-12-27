@@ -7,6 +7,6 @@
 - include: adminusercred.yml
 - include: tomcatservice.yml
 - include: tomcatstart.yml
-- include: mysteup.yml
+- include: steup.yml
 - include: deployjavaapp.yml
 - include: tomcatrestart.yml
